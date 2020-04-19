@@ -37,3 +37,5 @@ https://shahidlashari.github.io/HW8/
 ## Challenges:
 
 * This activity was difficult it took a lot of time to test each member's file using npm run test. I started my pseudo-code to work with. I went through lecture videos and also looking through a couple of examples online in order to understand jQuery code and day,date and time functions.
+
+![team generator.gif]assets/images/Team Generator.gif
