@@ -1,0 +1,68 @@
+body{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+#teamName{
+    background-color: #e42a36;
+    color: white;
+    font-size: 54px;
+    padding: 5%;
+}
+
+footer{
+    background-color: #e42a36;
+    color: white;
+    font-size: 16px;
+    padding: 2%;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(18, 99, 220, 0.92);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    margin: 0;
+    font-size: 36px;
+    line-height: 42px;
+    color: #d4d0d0;
+    
+}
+
+.role{
+    color: #d4d0d0;
+    font-size: 32px;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.list-group {
+    display: block;
+    margin: 8px 14px 0 14px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5f5e5e;
+    background-color: #3a3a3a;
+    padding-bottom: 20px;
+}
+
+#footerName{
+    color: white;
+}
