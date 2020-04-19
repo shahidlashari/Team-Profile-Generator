@@ -1,6 +1,10 @@
 # Team Profile Generator
 
 **URL**
+https://github.com/shahidlashari/HW8
+
+https://shahidlashari.github.io/HW8/
+
 
 https://github.com/shahidlashari/HW8
 
@@ -37,5 +41,11 @@ https://shahidlashari.github.io/HW8/
 
 * This activity was difficult it took a lot of time to test each member's file using npm run test. I started my pseudo-code to work with. I went through lecture videos and also looking through a couple of examples online in order to understand jQuery code and day,date and time functions. Most difficult part was to avoid DRY and prompt questions once and select specific informations as per role. 
 
+<<<<<<< HEAD
 ![image](assets/images/TeamGenerator.gif)
 ![image](assets/images/teamgenerator.jpg)
+=======
+* This activity was difficult it took a lot of time to test each member's file using npm run test. I started my pseudo-code to work with. I went through lecture videos and also looking through a couple of examples online in order to understand jQuery code and day,date and time functions.
+
+![image](assets/images/TeamGenerator.gif)
+>>>>>>> d741bbee5b9d9c3c1fe212727159925d6790614f
