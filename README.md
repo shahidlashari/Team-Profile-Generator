@@ -2,6 +2,9 @@
 
 **URL**
 
+https://github.com/shahidlashari/HW8
+
+https://shahidlashari.github.io/HW8/
 
 ## Description
 
@@ -9,19 +12,19 @@
 
 ## User Story
 
-* Upon launching the app, the user is asked to describe the first member of their team. The user enters the team member's name, selects that member's role from a list (options include "Engineer," "Intern," and "Manager), enters the member's ID (any string), enters the member's email address, and then must enter another piece of information that will differ depending on what role was selected. If "Engineer" was selected, the app asks the user for the team member's GitHub username; if "Intern" was selected, the member's school is requested; and if "Manager" was chosen, the user is prompted for the team member's phone number.When all information on the team member has been entered, the user is asked whether there are any more members they would like to add. If so, the user is asked the same questions about the new team member. If not, an HTML file is created with cards displaying the information on all the team members entered by the user in the "outputs" folder titled "team.html.
+* Upon launching the app, the user is asked to develop his team. The user is prompted the options to select the member's role from a list (options include "Engineer," "Intern," and "Manager), enters the member's ID (any string), enters the member's email address, and then must enter another piece of information that will differ depending on what role was selected. If "Engineer" was selected, the app asks the user for the member's GitHub username; if "Intern" was selected, the member's school is requested; and if "Manager" was chosen, the user is prompted for the manager's office number.When all information on the team member has been entered, the user is asked whether there are any more members they would like to add. If so, the user is asked the same questions about the new team member. If not, an HTML file is created with cards displaying the information on all the team members entered by the user in the "output" folder titled "team.html.
 
 ## Techniques Used:
 
-### OOP
+### Object-Oriented Programming
 
 * This app was created using Object-Oriented Programming concepts, namely using classes and constructors to create "team member" objects based on information entered by the user. The app is run using Node.js, and uses the "Inquirer" and "FS" node modules. Files for different objects are also stored in separate .js files and passed among one another using module.exports and require.
 
-### TDD
+### Test-Driven Development
 
 * This app uses concepts from Test-Driven Development. Jest is used to perform tests on all the class constructors to ensure that they behave as expected. The FS node module is used to generate an HTML file from strings written in JavaScript. Since the app will work no matter how many team members the user adds to the system, the HTML is built in a piecemeal fashion, starting with the head and part of the body. For each team member object created, a new column with a card inside containing the team member information is added. Then when the last member has been added, the last bit of the HTML is added to the file. 
 
-## Technologies:
+## Technologies:-
 
     * HTML
     * CSS 
@@ -30,6 +33,9 @@
     * Visual Studio Code
     * NPM(Inquirer, fs, jest, package json)
 
-## Challenges:
+## Challenges:-
 
-* This activity was difficult it took a lot of time to test each member's file using npm run test. I started my pseudo-code to work with. I went through lecture videos and also looking through a couple of examples online in order to understand jQuery code and day,date and time functions.
+* This activity was difficult it took a lot of time to test each member's file using npm run test. I started my pseudo-code to work with. I went through lecture videos and also looking through a couple of examples online in order to understand jQuery code and day,date and time functions. Most difficult part was to avoid DRY and prompt questions once and select specific informations as per role. 
+
+![image](assets/images/TeamGenerator.gif)
+![image](assets/images/teamgenerator.jpg)
